@@ -20,4 +20,9 @@ A collection of Problem sets and Labs from CS50 course
 17. runoff - program that runs a runoff election and determines the winner.
 18. scrabble - given some points to every letter, determines which of two words has an higher value.
 19. sentimental - all the problems beginning with "sentimental" are Python versions of the homonyms written in C.
-20 songs - 
+20. songs - Sql problem in which I had to answer some questions about songs with the use of a database to retrieve informations.
+21. substitution - program that encrypts messages with the use of a substitution cypher.
+22. tideman - program that runs a tideman election and prints the winner.
+23. trivia - website in which the user can answer some trivia questions.
+24. volume - program that change the volume of an audio file.
+25. world-cup - program that runs a simulation of a soccer world cup and calculates the probability of each team to win.
