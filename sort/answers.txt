@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: The average time of this sort was the longest, but when the numbers were already sorted it was faster than the other two, seeing that for bubble sort On^2 and Ωn, sort1 must be bubble sort
+
+sort2 uses: merge sort
+
+How do you know?: The average time of this sort was the fastest, but when the numbers were already sorted it was almost as fast as sort 1
+
+sort3 uses: selection sort
+
+How do you know?: For selection sort, O and Ω are the same, so we can say that Θn^2, the average time of sorted and unsorted were very similar so sort3 must be selection sort
