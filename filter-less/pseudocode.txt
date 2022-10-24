@@ -1,0 +1,9 @@
+blur:
+    sfocare la prima riga:
+        sfocare il pixel in alto a sinistra
+        sfocare la prima riga senza contare i due pixel ai lati, quindi devo sfocare solamente una parte dei pixel perchè quella superiore non andrà contata
+        sfocare il pixel in alto a destra
+
+    sfocare il resto della foto prima dell'ultima riga:
+        nel primo for loop prendo solamente i pixel sulla destra perchè a sinistra non ci sarà nulla
+        uso un nested for loop per fare in modo di prendere i valori dei pixel intorno a quello interessato

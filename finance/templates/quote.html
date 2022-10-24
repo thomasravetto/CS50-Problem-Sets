@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <form action ="/quote" method="post">
+        <input autocomplete ="off" class ="form-control mx-auto w-auto reg" type ="text" placeholder="Write symbol" name ="symbol">
+        <button class ="btn btn-primary reg" type ="submit">Search</button>
+    </form>
+{% endblock %}

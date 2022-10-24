@@ -1,0 +1,5 @@
+Prompt user for height (get_int)
+Height must be a number from 1 to 8, if not, go back one step
+repeat print # and new line for 1 to 8 times
+repeat print # for each line and then new line for 1 to 8 times
+add blank spaces in front of #

@@ -1,0 +1,25 @@
+allora
+devo creare una nuova table per contenere le informazioni delle transazioni che faranno gli utenti
+se creo una table con id posso sapere quale utente ha effettuato un operazione
+
+potrei creare una table che si chiama "transactions" in cui metto (id, username, azione, numero di azioni, data e ora)
+
+
+scriverò il punto in cui sono rimasto l'ultima volta:
+
+ho iniziato a fare la funzione history, devo modificare il database per fare in modo che mostri anche se ho venduto o comprato
+dare un'altra controllata alle altre funzioni, soprattutto sell e index
+
+index():
+    dal database transactions, prendo somma delle quantità delle azioni, simbolo, nome
+    nella tabella mostro i dati che mi servono
+
+sell():
+    ricevo dagli input nome e numero di azioni che l'utente ha intenzione di vendere
+    controllo che tutti i dati siano giusti (che l'utente possegga effettivamente quel numero di azioni e che il numero di azioni che vuole vendere sia superiore a 0)
+    aggiorno il database in modo che le azioni che l'utente ha venduto vengano sottratte dal totale e che il prezzo delle azioni vendute venga aggiunto al bilancio
+
+history():
+    okay allora per fare history devo fare in modo che tutti i dati sulla transazione vengano mostrati in una tavola, per fare questo potrei aiutarmi con i dati delle transazioni che ho già usato,
+    creo un altro database che mostri se un'azione è stata comprata o venduta, mi serve sapere su quante azioni ho effettuato operazioni e se le ho vendute o comprate
+
